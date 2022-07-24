@@ -3,7 +3,8 @@
 
 body { 
 	max-width: 80%; 
-	margin: 0 auto !important; 
+	margin: 8px auto !important; 
+    display: block;
 	float: none !important;
     background-color: #EBC744;   
 }
