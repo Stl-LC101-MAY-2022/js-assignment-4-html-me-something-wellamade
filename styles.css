@@ -111,7 +111,7 @@ ul {
   }
 
  #mainHeading {
-    background-color: #D65E2F;
+    background-color: red;
     padding-right: 1em;
     padding-left: 1em;
     padding-top: 16px;
@@ -126,6 +126,10 @@ ul {
  }
 
  .funParagraph {
+    color: green;
+ }
+
+ #testP {
     color: green;
  }
 
