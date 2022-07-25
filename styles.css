@@ -1,1 +1,209 @@
 /* Write your CSS here! */
+@import url('https://fonts.googleapis.com/css?family=Space Mono|Open Sans');
+
+body { 
+	max-width: 80%; 
+	margin: 8px auto !important; 
+    display: block;
+	float: none !important;
+    background-color: #EBC744;   
+}
+
+nav{
+    display: block;
+}
+nav ul {
+    text-align: center;
+    padding: 0
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 0.75em;
+    font-family: 'Open+Sans', sans-serif;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type:square;
+    margin-top: 0px;
+
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-family: 'Open+Sans', sans-serif;
+    font-weight: 800;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-family: 'Space Mono';
+    font-weight: 300;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+  }
+
+  h5 {
+    font-size: 8px;
+    font-family: 'Open+Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+   h6 {
+    font-size: 8px;
+    font-family: 'Open+Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  p {
+    padding: 1.25em;
+    font-size: 16px;
+    font-family: 'Open+Sans', sans-serif;
+    margin: 0em;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:visited{
+    color: grey;
+  }
+
+  figcaption {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  section {
+    margin-top: 64px
+  }
+
+ #mainHeading {
+    background-color: red;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+
+ #footer-caption {
+    font-size: 12px;
+    font-style: italic;
+    color: navy;
+    text-align: center;
+ }
+
+ .funParagraph {
+    color: green;
+ }
+
+ #testP {
+    color: green;
+ }
+
+.container {
+   display: inline-block;
+   vertical-align: middle;
+   max-width: 100%;
+   float: none;
+   margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+     .column {
+      flex: 32%;
+      max-width: 32%;
+      padding: 0 4px;
+     }
+  
+  .columnOne {
+    flex: 65%;
+    max-width: 65%;
+    padding: 0 4px;
+  }
+  .columnOne img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .columnTwo {
+    flex: 30%;
+    max-width: 32%;
+    max-height: 700px;
+    padding: 0 4px;
+  }  
+
+  .columnTwo img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .cropimg {
+    position: absolute;
+    clip: rect(0px,50px,100px,50px);
+    
+    }
+
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  
